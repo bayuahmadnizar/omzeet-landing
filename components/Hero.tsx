@@ -45,6 +45,17 @@ export default function Hero() {
         <p className="mt-4 text-xs text-slate-400">
           Gratis dipakai • Tanpa kartu kredit • Offline-first
         </p>
+
+        <div className="mt-14 max-w-2xl mx-auto">
+          <Image
+            src="/hero-illustration.png"
+            alt="Berbagai jenis usaha UMKM memakai Omzeet Kasir untuk menerima pembayaran"
+            width={1024}
+            height={1024}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
       </div>
     </section>
   )
