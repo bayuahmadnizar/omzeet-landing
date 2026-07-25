@@ -1,5 +1,5 @@
 import Header from '@/components/Header'
-import Hero from '@/components/Hero'
+import HeroSlider from '@/components/HeroSlider'
 import Features from '@/components/Features'
 import Pricing from '@/components/Pricing'
 import DownloadCta from '@/components/DownloadCta'
@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <Header />
       <main className="flex-1">
-        <Hero />
+        <HeroSlider />
         <Features />
         <Pricing />
         <DownloadCta />

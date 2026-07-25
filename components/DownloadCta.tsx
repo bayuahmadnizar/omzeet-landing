@@ -1,3 +1,5 @@
+import PlayStoreIcon from './PlayStoreIcon'
+
 const PLAY_STORE_URL =
   'https://play.google.com/store/apps/details?id=com.omzeet.omzeet_kasir'
 
@@ -16,8 +18,9 @@ export default function DownloadCta() {
           href={PLAY_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-8 px-8 py-4 bg-white text-brand-700 font-bold rounded-xl hover:bg-brand-50 transition-colors"
+          className="inline-flex items-center gap-2.5 mt-8 px-8 py-4 bg-white text-brand-700 font-bold rounded-xl hover:bg-brand-50 transition-colors"
         >
+          <PlayStoreIcon className="w-5 h-5 shrink-0" />
           Unduh di Google Play
         </a>
       </div>
