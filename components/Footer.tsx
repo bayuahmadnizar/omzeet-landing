@@ -13,6 +13,9 @@ export default function Footer() {
           © {new Date().getFullYear()} Omzeet. UMKM Berjaya.
         </p>
         <nav className="flex items-center gap-5 text-sm text-slate-500 order-2 sm:order-3">
+          <Link href="/referral" className="hover:text-brand-700 transition-colors">
+            Jadi Referral
+          </Link>
           <Link href="/privacy" className="hover:text-brand-700 transition-colors">
             Kebijakan Privasi
           </Link>

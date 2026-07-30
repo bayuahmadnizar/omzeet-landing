@@ -13,6 +13,7 @@ export default function Header() {
           <a href="#fitur" className="hover:text-brand-700 transition-colors">Fitur</a>
           <a href="#harga" className="hover:text-brand-700 transition-colors">Harga</a>
           <a href="#unduh" className="hover:text-brand-700 transition-colors">Unduh</a>
+          <Link href="/referral" className="hover:text-brand-700 transition-colors">Jadi Referral</Link>
         </nav>
         <a
           href="#unduh"
